@@ -1,0 +1,17 @@
+
+function bookmark(url, title, bookmarks_unsupported_alert){
+	if (window.sidebar) { // Mozilla Firefox
+			window.sidebar.addPanel(title, url, "");
+	}
+	else if (window.external) { // IE
+			window.external.AddFavorite(url, title);
+	}
+	else {
+			alert(bookmarks_unsupported_alert);
+	}  
+	// return false;
+}
+
+function hideAdds() {
+	document.getElementById("add_box").style.display = 'none'; 
+}
