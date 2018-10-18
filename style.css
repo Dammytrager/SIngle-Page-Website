@@ -4,7 +4,8 @@
 /*banner**/
 
 .banner   {
-            background:url(images/slide_2.jpg) no-repeat center;
+            background:url(images/slide_2.jpg) center;
+            background-size:cover;
             height:618px;
           }
 
@@ -209,50 +210,6 @@ footer p  {
 
 
 /**Media Querries**/
-@media (max-width:1049px){
-                          ul.nav.navbar-nav li a{
-                            padding:15px 7.5px 7.5px 7.spx;
-                          }
-
-                          a.navbar-brand  {
-                            margin-right:0px;
-                          }
-
-                          .navbar-brand .text-primary {
-                                                        font-size: 14pt;
-                                                      }
-}
-
-@media (min-width:854px) and (max-width:948px) {
-                            input[placeholder='search']{
-                                                          width:150px;
-                            }
-  }
-
-
-@media (max-width:930px){
-
-
-                        .navbar-brand     {
-                                            margin-right:0px;
-                                          }
-
-                        .navbar-brand .text-primary {
-                                                      font-size: 12pt;
-                                                    }
-                        form[class='navbar-form navbar-right']  {
-                                                                  padding:0px;
-                                                                }
-                        ul.nav.navbar-nav li a                  {
-                                                                    padding-left:10px;
-                                                                    padding-right:10px;
-                                                                  }
-
-                        ul.slides li .form-group .btn             {
-                                                                    margin-left:33%;
-                        }
-}
-
 
 @media(max-width:768px){
                         .banner   {

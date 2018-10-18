@@ -18,6 +18,56 @@
         });
       });
     </script>
+    <style type="text/css">
+    @media (max-width: 991px) {
+      .navbar-header {
+          float: none;
+      }
+      .navbar-left,.navbar-right {
+          float: none !important;
+      }
+      .navbar-toggle {
+          display: block;
+      }
+      .navbar-collapse {
+          border-top: 1px solid transparent;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+      }
+      .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+    }
+      .navbar-collapse.collapse {
+          display: none!important;
+      }
+      .navbar-nav {
+          float: none!important;
+      margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+          float: none;
+      }
+      .navbar-nav>li>a {
+          padding-top: 10px;
+          padding-bottom: 10px;
+      }
+      .collapse.in{
+        display:block !important;
+    }
+
+    .search {
+              width:100%;
+    }
+
+    .search input.form-control  {
+                            width:100%;
+                            margin-bottom:10px;
+    }
+    button[class='btn btn-outline-primary'] {
+                                              width:100%;
+                                            }
+    }
+    </style>
   </head>
 
   <body>
@@ -29,7 +79,7 @@
       <header>
 
         <!--Navbar-->
-        <nav class='navbar navbar-inverse navbar-expand-md'>
+        <nav class='navbar navbar-inverse navbar-expand-md navbar-fixed-top'>
           <div class='container-fluid'>
             <div class='navbar-header'>
               <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#mainNavBar'>
@@ -55,11 +105,11 @@
                 </li>
               </ul>
               <form class='navbar-form navbar-right' role='search'>
-                <div class="form-group">
+                <div class="form-group search">
                   <input type='search' class='form-control' placeholder='search'>
                 </div>
 
-                <div class="form-group">
+                <div class="form-group search">
                   <button type="button" class='btn btn-outline-primary'>Search</button>
                 </div>
             </div>
@@ -605,9 +655,9 @@
         <div class='float-right'>
           follow us on:
           <ul>
-            <li><a href='#'><img src=images/facebook.png></a></li>
+            <li><a href='#'><img src=images/Facebook.png></a></li>
             <li><a href='#'><img src=images/Twitter.png></a></li>
-            <li><a href='#'><img src=images/Youtube.png></a></li>
+            <li><a href='#'><img src=images/YouTube.png></a></li>
             <li><a href='#'><img src=images/Instagram.png></a></li>
             <li><a href='#'><img src=images/Linkedin.png></a></li>
           </ul>
